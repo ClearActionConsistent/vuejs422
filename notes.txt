@@ -1,6 +1,7 @@
-1. create project with commandline
+1. install vue cli: npm install -g @vue/cli
+2. create project with commandline
 vue create [project name]
-2. create project with UI
+3. create project with UI
 run command: vue ui -> vue ui start at port 8000. Then use the UI to create project.
 
-3. after creating project -> run npn run serve(at the root folder) to start website.
+4. after creating project -> run npn run serve(at the root folder) to start website.
