@@ -1,11 +1,7 @@
 <template>
   <div id="app">
-	<Todos/>
-    <ul>
-		<li v-for="todo in todos" v-bind:key="todo">
-			{{todo.title}}
-		</li>
-	</ul>
+	<Todos v-bind:todos="todos"/>
+    
   </div>
 </template>
 
