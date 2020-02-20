@@ -5,3 +5,5 @@ vue create [project name]
 run command: vue ui -> vue ui start at port 8000. Then use the UI to create project.
 
 4. after creating project -> run npn run serve(at the root folder) to start website.
+
+5. to construct a model with unique id, need to install a package named uuid by running the command "npm install uuid"
