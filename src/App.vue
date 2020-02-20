@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+	<Todos/>
     <ul>
 		<li v-for="todo in todos" v-bind:key="todo">
 			{{todo.title}}
@@ -9,12 +10,12 @@
 </template>
 
 <script>
-
+import Todos from './components/Todos';
 
 export default {
   name: 'App',
   components: {
-    
+    Todos
   },
   data(){
 	return {
